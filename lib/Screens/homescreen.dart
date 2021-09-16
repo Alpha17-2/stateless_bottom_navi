@@ -27,23 +27,32 @@ class HomeScreen extends StatelessWidget {
         items: [
           BottomNavigationBarItem(
               label: '',
-              icon: Icon((currentScreenIndex==0)?Icons.home:Icons.home_outlined),
-              backgroundColor: Colors.indigo // provide color to any one icon as it will overwrite the whole bottombar's color ( if provided any )
+              icon: Icon(
+                  (currentScreenIndex == 0) ? Icons.home : Icons.home_outlined),
+              backgroundColor: Colors
+                  .indigo // provide color to any one icon as it will overwrite the whole bottombar's color ( if provided any )
+              ),
+          BottomNavigationBarItem(
+            label: '',
+            icon: Icon((currentScreenIndex == 1)
+                ? Icons.search
+                : Icons.search_outlined),
           ),
           BottomNavigationBarItem(
             label: '',
-            icon: Icon((currentScreenIndex==1)?Icons.search:Icons.search_outlined),
+            icon: Icon((currentScreenIndex == 2)
+                ? Icons.favorite
+                : Icons.favorite_outline),
           ),
           BottomNavigationBarItem(
             label: '',
-            icon: Icon((currentScreenIndex==2)?Icons.favorite:Icons.favorite_outline),
-          ),
-          BottomNavigationBarItem(
-            label: '',
-            icon: Icon((currentScreenIndex==3)?Icons.person:Icons.person_outline),
+            icon: Icon((currentScreenIndex == 3)
+                ? Icons.person
+                : Icons.person_outline),
           ),
         ],
       ),
+      body: screens[currentScreenIndex],
     );
   }
 }
