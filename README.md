@@ -1,6 +1,6 @@
 ## Stateless Bottom NavigationBar
 
-An app with a bottom navigation bar that changes screen upon tapping on the respective icons without changing state ( Stateless ) using Provider state management .
+An app with a bottom navigation bar that changes screen upon tapping of the respective icons without changing state ( Stateless ) using Provider state management .
 
 # Dependencies
 
