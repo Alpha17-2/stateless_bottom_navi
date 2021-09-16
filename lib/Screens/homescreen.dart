@@ -1,8 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:stateless_bottom_navi/Providers/screenIndexProvider.dart';
+import 'package:stateless_bottom_navi/Screens/screen1.dart';
+import 'package:stateless_bottom_navi/Screens/screen2.dart';
+import 'package:stateless_bottom_navi/Screens/screen3.dart';
+import 'package:stateless_bottom_navi/Screens/screen4.dart';
 
 class HomeScreen extends StatelessWidget {
+  List<dynamic> screens = [
+    screen1(),
+    screen2(),
+    screen3(),
+    screen4(),
+  ];
   @override
   Widget build(BuildContext context) {
     final _screenindexprovider = Provider.of<screenIndexProvider>(context);
