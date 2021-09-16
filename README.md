@@ -1,16 +1,31 @@
-# stateless_bottom_navi
+## Stateless Bottom NavigationBar
 
-A new Flutter project.
+An app with a bottom navigation bar that changes screen upon tapping on the respective icons without changing state ( Stateless ) using Provider state management .
 
-## Getting Started
+# Dependencies
 
-This project is a starting point for a Flutter application.
+* [Provider - For state management](https://pub.dev/packages/provider)
 
-A few resources to get you started if this is your first Flutter project:
+# Get Started
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+* Fork the the project
+* Clone the repository to your local machine 
+* Checkout the master branch 
+* run command - 'flutter run' 
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Developed by
+
+Subhojeet Sahoo
+
+# Get in touch
+
+* [Instagram](https://www.instagram.com/alpha__77__/)
+* [Twitter](https://twitter.com/subhojeet_sahoo)
+
+## Contribute
+
+1. Fork the the project
+2. Make required changes and commit (git commit -m 'Added some feature')
+3. Create a new branch and name it 'features'
+4. Push to the above created branch
+5. Create new Pull Request
