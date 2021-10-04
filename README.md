@@ -17,9 +17,9 @@ An app with a bottom navigation bar that changes screen upon tapping of the resp
 
 Subhojeet Sahoo
 
-# Understand the project with my medium article
+# Project explained
 
-* [Medium](https://medium.com/@sahoosubhojeet/stateless-bottomnavigationbar-in-flutter-using-provider-state-management-ee49f343d5d1)
+* [Medium Article](https://medium.com/@sahoosubhojeet/stateless-bottomnavigationbar-in-flutter-using-provider-state-management-ee49f343d5d1)
 
 # Get in touch
 
