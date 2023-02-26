@@ -2,10 +2,8 @@ import 'package:flutter/material.dart';
 
 class screenIndexProvider extends ChangeNotifier {
   int screenIndex = 0; // Initial index of the screen
-  int get fetchCurrentScreenIndex {
-    // function to return the current screen Index
-    return screenIndex;
-  }
+  // function to return the current screen Index
+  int get fetchCurrentScreenIndex => screenIndex;
 
   void updateScreenIndex(int newIndex) {
     // function to update the screenIndex
